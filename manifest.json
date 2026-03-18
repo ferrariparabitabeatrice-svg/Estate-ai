@@ -1,0 +1,83 @@
+{
+  "name": "Estate AI - Real Estate Investment Analyzer",
+  "short_name": "Estate AI",
+  "description": "AI-powered real estate investment analysis with Idealista search, archive system, and financial projections",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0f1419",
+  "background_color": "#0f1419",
+  "prefer_related_applications": false,
+  "categories": ["productivity", "finance"],
+  
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%230f1419' width='192' height='192'/%3E%3Ctext x='50%' y='50%' font-size='100' fill='%23fbbf24' text-anchor='middle' dominant-baseline='middle' font-family='Arial, sans-serif' font-weight='bold'%3E🏠%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect fill='%230f1419' width='512' height='512'/%3E%3Ctext x='50%' y='50%' font-size='300' fill='%23fbbf24' text-anchor='middle' dominant-baseline='middle' font-family='Arial, sans-serif' font-weight='bold'%3E🏠%3C/text%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect fill='%230f1419' width='180' height='180' rx='45'/%3E%3Ctext x='50%' y='50%' font-size='90' fill='%23fbbf24' text-anchor='middle' dominant-baseline='middle' font-family='Arial, sans-serif' font-weight='bold'%3E🏠%3C/text%3E%3C/svg%3E",
+      "sizes": "180x180",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'%3E%3Crect fill='%230f1419' width='540' height='720'/%3E%3Ctext x='50%' y='50%' font-size='40' fill='%23fbbf24' text-anchor='middle' dominant-baseline='middle' font-family='Arial, sans-serif' font-weight='bold'%3EEstate AI%3C/text%3E%3Ctext x='50%' y='70%' font-size='20' fill='%23cbd5e1' text-anchor='middle'%3EReal Estate Investment%3C/text%3E%3C/svg%3E",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  
+  "shortcuts": [
+    {
+      "name": "Search Properties",
+      "short_name": "Search",
+      "description": "Search and analyze properties from Idealista",
+      "url": "/?tab=search",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='45' fill='%230f1419' stroke='%23fbbf24' stroke-width='3'/%3E%3Ctext x='50%' y='50%' font-size='50' fill='%23fbbf24' text-anchor='middle' dominant-baseline='middle'%3E🔍%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "View Archive",
+      "short_name": "Archive",
+      "description": "View saved YES/NO properties",
+      "url": "/?tab=archive",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'%3E%3Ccircle cx='48' cy='48' r='45' fill='%230f1419' stroke='%2310b981' stroke-width='3'/%3E%3Ctext x='50%' y='50%' font-size='50' fill='%2310b981' text-anchor='middle' dominant-baseline='middle'%3E📦%3C/text%3E%3C/svg%3E",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  
+  "share_target": {
+    "action": "/share",
+    "method": "POST",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
