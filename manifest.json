@@ -1,0 +1,16 @@
+{
+  "name": "Estate AI",
+  "short_name": "Estate AI",
+  "description": "Real Estate Investment Analyzer",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0f1419",
+  "background_color": "#0f1419",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect fill='%230f1419' width='192' height='192'/%3E%3Ctext x='50%' y='50%' font-size='100' fill='%23fbbf24' text-anchor='middle' dominant-baseline='middle'%3E🏠%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
